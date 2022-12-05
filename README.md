@@ -13,8 +13,9 @@
   - https://medium.com/swimm/a-visualized-intro-to-git-internals-objects-and-branches-68df85864037
   - https://medium.com/swimm/getting-hardcore-creating-a-repo-from-scratch-cc747edbb11c
 
-## Visualizer Tools
-- https://git-graph.harshkapadia.me/
+## Tools
+- [Git Graph Visualizer](https://git-graph.harshkapadia.me/)
+- [Git Sizer](https://github.blog/2018-03-05-measuring-the-many-sizes-of-a-git-repository/)
 
 ## [Structures](https://stackoverflow.com/a/56026788/10393067)
 **.git** is initialized by `git init`.
@@ -42,6 +43,16 @@ Here "object" includes:
 - **commits** (reference to a tree, parent commit, etc)
 
 The **.git** folder is hidden to prevent accidental deletion or modification of the folder. The version history of the code base will be lost if this folder is deleted. This means, we will not be able to rollback changes made to the code in future.
+
+## Git data model (Directed Acyclic Graph)
+- https://blog.10pines.com/2018/05/21/the-model-behind-git/
+- https://astahblog.com/2015/09/08/git-data-model/
+- https://www.atomiccommits.io/gits-dag
+- https://cloudoki.com/do-you-really-know-git/
+  - > It's common to think about version history as a tree. However, in a tree, a node can only have 1 parent and there can only be 1 tree root. In a **directed acyclic graph**, a node can have any number of nodes pointing to it.
+- [What's the difference between the data structure Tree and Graph?](https://stackoverflow.com/questions/7423401/whats-the-difference-between-the-data-strucdirected%20acyclic%20graphture-tree-and-graph)
+- [Đồ thị có hướng - Directed và không có chu trình - Acyclic](https://viblo.asia/p/data-structures-graph-Do754OnBlM6)
+- https://stackoverflow.com/questions/26395521/dag-vs-tree-using-git
 
 ### Notes
 
