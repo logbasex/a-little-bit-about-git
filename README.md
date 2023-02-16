@@ -53,6 +53,8 @@ The **.git** folder is hidden to prevent accidental deletion or modification of 
 - [What's the difference between the data structure Tree and Graph?](https://stackoverflow.com/questions/7423401/whats-the-difference-between-the-data-strucdirected%20acyclic%20graphture-tree-and-graph)
 - [Đồ thị có hướng - Directed và không có chu trình - Acyclic](https://viblo.asia/p/data-structures-graph-Do754OnBlM6)
 - https://stackoverflow.com/questions/26395521/dag-vs-tree-using-git
+- [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)
+- [Git is a Directed Acyclic Graph and What the Heck Does That Mean?](https://medium.com/girl-writes-code/git-is-a-directed-acyclic-graph-and-what-the-heck-does-that-mean-b6c8dec65059)
 
 ### Notes
 
